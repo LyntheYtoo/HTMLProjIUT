@@ -1,0 +1,26 @@
+1. Tashkent's Official Tourist Helper Website. (Uzbekistan - soon)
+2. Provide an single source for all information about Tashkent's hotels, transportation, sights, food, and etc. with accurate addresses, prices, and contacts. Also, tips and facts will be provided to ensure that tourists are fully aware of how to behave in Tashkent.
+In addition, the website will contain a psychological test for tourists to find out their traveler type and based on the result offer a set of activities to do in Tashkent. This may help better understand the true nature of tourists (thier needs, likes, dislikes) and figure out what type of tourists Uzbekistan is most sutable for.  
+All info about Tashkent is spread around the Internet, and it is either out-of-date or incomplete. Both cases cause great inconvenience for foreign visitors, which may stop them from fully enjoying their stay in Tashkent.  
+No official website for tourists coming to Uzbekistan exists. And no special advice and news sites are available to assist foreigners in their daily tasks and to keep them informed about the current events in Tashkent. 
+3. The Homepage has a navigation bar on the left side of the screen. All buttons are easy to locate and the Homepage is designed to greet visitors with a informative video about modern Tashkent city.
+All information is well categorized, so the user may find the desired information without any trouble. 
+The pages contain colorful pictures with descriptive texts and special buttons for quick movement around the webpage. 
+The overall design is aimed to bring out only the most important pieces of information. Through this we can minimize the amount of text on pages and bring out the charm of minimalism.
+4. Our Website includes the following:
+- info about hotels
+- info about entertainment 
+- info about food locations
+- info about culture
+- info about transportation
+- info about news sources 
+- tips and tricks to use in Tashkent
+- what will you need in Tashkent
+- what should you buy in Tashkent
+- a test to identify what type of traveller you are
+5. Our Website may target practically everyone. 
+Tourists are our primary aim, for they are the ones in need of full information about Tashkent. 
+Travel agencies and tourist locations may use our wbsite to promote their business and attract more customers.
+In the future, once we add in rating and commenting systems to add tourist information to a database, the Government may use the Website data to aquire essential knowledge about the tourism industry, like which locations in the country are key tourist sites, which ones need to be improved, and how cost sensitive are the toursts.  
+Ordinary people may use the site as a reliable source to gain more knowledge abou their home-city.
+ 
