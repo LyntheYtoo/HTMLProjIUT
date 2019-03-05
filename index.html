@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Bootstrap Example</title>
+  <title>TashTour</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
@@ -12,7 +12,7 @@
 
 
 a:visited {
-  color: #99d6ff;
+  color: #6699ff;
   background-color: transparent;
   text-decoration: none;
 }
@@ -46,13 +46,28 @@ a:hover {
 
 p.grids {
   font-size: 24px;
+
 }
 
+img {
+ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+filter:grayscale(30%);
+}
+
+img:hover {
+ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+ filter:grayscale(0%);
+}
+
+video{
+  margin: 0 auto;
+	border: 20px solid #ddd;
+}
   </style>
 </head>
 <body>
 
-<nav class="navbar navbar-default" data-spy="affix" data-offset-top="0" style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)">
+<nav class="navbar navbar-default" data-spy="affix" data-offset-top="1" style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)">
   <div class="container-fluid">
     <div class="navbar-header">
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
@@ -79,7 +94,7 @@ p.grids {
       <a class="dropdown-toggle" data-toggle="dropdown" href="#">Restaurants & Cafes
       <span class="caret"></span></a>
       <ul class="dropdown-menu">
-		<li><a href="National.html">National</a></li>
+		    <li><a href="National.html">National</a></li>
         <li><a href="FastFood.html">Fast Food</a></li>
         <li><a href="CoffeeShop.html">Coffee Shops</a></li>
         <li><a href="OR.html">Other</a></li>
@@ -104,6 +119,20 @@ p.grids {
     </div>
   </div>
 </nav>
+<div class="row" style="background-color: #f2f2f2; margin-bottom: 0px;">
+  <div class="col-lg-1">
+</div>
+  <div class="col-lg-10 container">
+    <br>
+    <video width=100% height=auto controls autoplay style="margin-bottom: 0px;">
+      <source src="Tashkent City.mp4" type="video/mp4">
+      </video>
+  </div>
+  <div class="col-lg-1">
+  </div>
+</div>
+
+<!-- FULLWIDTH VIDEO
 
 <div class="container embed-responsive embed-responsive-16by9" style="width: 100%; height:100%">
 
@@ -111,79 +140,79 @@ p.grids {
       <source src="Tashkent City.mp4" type="video/mp4">
       </video>
 </div>
+-->
 
-<div class="jumbotron"  style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)">
-<div class="container text-center">
-    <h1>Assalomu Alaykum</h1>
-    <p>WELCOME TO TASHKENT!</p>
+
+<div class="jumbotron"  style="background-color: #f2f2f2; margin-bottom: 0; margin-top: 0;">
+<div class="container text-center" style="margin-bottom: 0; margin-top: 0;">
+    <h1 style="margin-top: 0;">Assalomu Alaykum!</h1>
+    <p style="margin-bottom: 0;">WELCOME TO TASHKENT!</p>
   </div>
   </div>
-
-<div class="container-fluid bg-3 text-center">
+<div class="container-fluid bg-3 text-center" style="background-image: url('bg.png'); box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
   <div class="well-lg"><h3 class="text-primary">Welcome to the eclectic and bustling city of Tashkent, one of the main political and transportation hubs of Central Asia.
     <br><br>Tashkent is a wonderful mixture of a modern metropolis and the unique colors of an eastern city.
     <br>Taking a walk in Tashkent, you will see graceful European constructions, monumental buildings of the Soviet era, blue domes of mosques and madrasas, and glittering facades of modern buildings.</h3><br>
 </div>
-<hr>
   <div class="row">
-    <div class="col-sm-3"><a href="#">
+    <div class="col-sm-3"><a href="_museum.html">
       <p class="grids">Museums</p>
-      <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
+      <img src="museummain.jpg" class="img-responsive" style="width:100%" alt="museums">
     </a></div>
-    <div class="col-sm-3"><a href="#">
+    <div class="col-sm-3"><a href="_park.html">
       <p class="grids">Parks</p>
-      <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
+      <img src="parkmain.jpg" class="img-responsive" style="width:100%" alt="parks">
     </a></div>
-    <div class="col-sm-3"><a href="#">
+    <div class="col-sm-3"><a href="_shop.html">
       <p class="grids">Shops</p>
-      <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
+      <img src="shopmain.jpg" class="img-responsive" style="width:100%" alt="shops">
     </a></div>
-    <div class="col-sm-3"><a href="#">
+    <div class="col-sm-3"><a href="Travelers Quiz.html" target="_blank">
       <p class="grids">Quiz</p>
-      <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
+      <img src="quizmain.jpg" class="img-responsive" style="width:100%" alt="quiz">
     </a></div>
   </div>
   <br>
   <div class="row">
-    <div class="col-sm-3"><a href="#">
+    <div class="col-sm-3"><a href="National.html">
       <p class="grids">National Food</p>
-      <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
+      <img src="nationalmain.jpg" class="img-responsive" style="width:100%" alt="nationalfood">
     </a></div>
-    <div class="col-sm-3"><a href="#">
-      <p class="grids">Fast Food</p>
-      <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
-    </a></div>
-    <div class="col-sm-3"><a href="#">
+    <div class="col-sm-3"><a href="CoffeeShop.html">
       <p class="grids">Coffee Shops</p>
-      <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
+      <img src="coffeeshopmain.jpg" class="img-responsive" style="width:100%" alt="coffeeshops">
     </a></div>
-    <div class="col-sm-3"><a href="#">
+    <div class="col-sm-3"><a href="FastFood.html">
+      <p class="grids">Fast Food</p>
+      <img src="fastfoodmain.jpg" class="img-responsive" style="width:100%" alt="fastfood">
+    </a></div>
+    <div class="col-sm-3"><a href="Accommodation.html">
       <p class="grids">Accommodations</p>
-      <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
+      <img src="Hotelphotos/Hotel HYATT Regency1.jpg" class="img-responsive" style="width:100%" alt="hotels">
     </a></div>
   </div>
   <br>
   <div class="row">
     <div class="col-sm-2">
 	</div>
-    <div class="col-sm-4"><a href="#">
+    <div class="col-sm-4"><a href="_news.html">
       <p class="grids">Latest News</p>
-      <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
+      <img src="latestnewsmain.jpg" class="img-responsive" style="width:100%" alt="news">
     </a></div>
-    <div class="col-sm-4"><a href="#">
+    <div class="col-sm-4"><a href="_cult.html">
       <p class="grids">Culture</p>
-      <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
+      <img src="culturemain.jpg" class="img-responsive" style="width:100%" alt="culture">
     </a></div>
     <div class="col-sm-2">
     </div>
   </div>
-</div><br>
+  <br><br><br>
+</div>
 
-<br><br>
 
-<footer class="container-fluid text-center">
-  <p>&copy WEB OSS 2019
-  <br>Dong Woo Choi | Ozodbek Kuchkarov | Abdulaziz ... | Vova ...)) </p>
+<footer class="container-fluid text-center" style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
+  <p><b>&copy WEB OSS 2019</b></p>
+  <p><em>Dong Woo Choi | Ozodbek Kuchkarov | Abdulaziz Mavlyanov | Nam Vladimir</em></p>
 </footer>
 
 </body>
